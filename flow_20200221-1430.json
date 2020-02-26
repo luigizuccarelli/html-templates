@@ -1,0 +1,223 @@
+{
+	"tabs": [
+		{
+			"name": "Designer",
+			"linker": "designer",
+			"id": "1576075900139",
+			"index": 0
+		}
+	],
+	"components": [
+		{
+			"id": "1581951164124",
+			"component": "comment",
+			"tab": "1576075900139",
+			"name": "NewBeginnings",
+			"reference": "utm_campaign",
+			"x": 332,
+			"y": 15,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {},
+			"color": "#704cff",
+			"notes": ""
+		},
+		{
+			"id": "1582198926673",
+			"component": "comment",
+			"tab": "1576075900139",
+			"name": "https://webapp-256e5.web.app/",
+			"reference": "base_url",
+			"x": 333,
+			"y": 72,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {},
+			"color": "#704cff",
+			"notes": ""
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 11,
+			"y": 193,
+			"tab": "1576075900139",
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790996"
+					}
+				]
+			},
+			"id": "1582277687232",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"mail.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"name": "20",
+			"reference": "Mail"
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 807,
+			"y": 233,
+			"tab": "1576075900139",
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277791005"
+					}
+				]
+			},
+			"id": "1582277789887",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"downsell.html\",\n\t\"content\": \"downsell.json\"\n}"
+			},
+			"name": "4",
+			"reference": "DownsellPage"
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 520,
+			"y": 166,
+			"tab": "1576075900139",
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277789887"
+					}
+				]
+			},
+			"id": "1582277790970",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"upsell.html\",\n\t\"content\": \"upsell.json\"\n}"
+			},
+			"name": "4",
+			"reference": "UpsellPage"
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 8,
+			"y": 369,
+			"tab": "1576075900139",
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790996"
+					}
+				]
+			},
+			"id": "1582277790985",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"google.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"name": "20",
+			"reference": "Google"
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 252,
+			"y": 261,
+			"tab": "1576075900139",
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790970"
+					},
+					{
+						"index": "0",
+						"id": "1582277791005"
+					}
+				]
+			},
+			"id": "1582277790996",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"landing.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"name": "1",
+			"reference": "LandingPage"
+		},
+		{
+			"component": "template",
+			"state": {
+				"text": "",
+				"color": ""
+			},
+			"x": 1072,
+			"y": 404,
+			"tab": "1576075900139",
+			"connections": {},
+			"id": "1582277791005",
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"order.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"name": "3",
+			"reference": "OrderPage"
+		}
+	],
+	"variables": "",
+	"panel": "debug",
+	"url": "https://flow-designer-portfoliotracker.e4ff.pro-eu-west-1.openshiftapps.com/#designer",
+	"created": "2020-02-21T14:30:30.541Z"
+}

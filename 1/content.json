@@ -1,0 +1,27 @@
+{
+  "title": "Test", 
+  "titleDescription": "This is a test",
+  "titleUrl": "test",
+  "titleBtn": "Test",
+  "detailDescription": "Another test",
+  "overview": "A Test form",
+  "overviewDescription": "We are testing",
+  "imageOptionsA": "images/001-diet.png",
+  "optionsA": "Frist",
+  "optionsADescription": "The first test", 
+  "imageOptionsB": "images/003-recipe-book.png",
+  "optionsB": "Second",
+  "optionsBDescription": "The second test",
+  "video": "Watch Now",
+  "videoDescription": "Its all about testing",
+  "contact": "info@test.com",
+  "address": "The drive 123223  Test Ave",
+  "phone": "1213221312",
+  "linkaurl": "#",
+  "linkburl": "#",
+  "linkcurl": "#",
+  "linkabtn": "Home",
+  "linkbbtn": "LinkedIn",
+  "linkcbtn": "Google+"
+
+}

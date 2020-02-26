@@ -1,0 +1,265 @@
+{
+	"tabs": [
+		{
+			"name": "Designer",
+			"linker": "designer",
+			"id": "1576075900139",
+			"index": 0
+		}
+	],
+	"components": [
+		{
+			"id": "1581951164124",
+			"component": "comment",
+			"tab": "1576075900139",
+			"name": "NewBeginnings",
+			"reference": "utm_campaign",
+			"x": 332,
+			"y": 15,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {},
+			"color": "#704cff",
+			"notes": ""
+		},
+		{
+			"id": "1582198926673",
+			"component": "comment",
+			"tab": "1576075900139",
+			"name": "https://webapp-256e5.web.app/",
+			"reference": "base_url",
+			"x": 333,
+			"y": 72,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {},
+			"color": "#704cff",
+			"notes": ""
+		},
+		{
+			"id": "1582277687232",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "20",
+			"reference": "Mail",
+			"x": 11,
+			"y": 193,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790996"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"mail.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582277789887",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "4",
+			"reference": "DownsellPage",
+			"x": 807,
+			"y": 233,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277791005"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"downsell.html\",\n\t\"content\": \"downsell.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582277790970",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "4",
+			"reference": "UpsellPage",
+			"x": 520,
+			"y": 166,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277789887"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"upsell.html\",\n\t\"content\": \"upsell.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582277790985",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "20",
+			"reference": "Google",
+			"x": 19,
+			"y": 337,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790996"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"google.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582277790996",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "1",
+			"reference": "LandingPage",
+			"x": 291,
+			"y": 267,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790970"
+					},
+					{
+						"index": "0",
+						"id": "1582277791005"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"landing.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582277791005",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "3",
+			"reference": "OrderPage",
+			"x": 1072,
+			"y": 404,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"order.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		},
+		{
+			"id": "1582318184605",
+			"component": "template",
+			"tab": "1576075900139",
+			"name": "14",
+			"reference": "MLDemo",
+			"x": 26,
+			"y": 469,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1582277790996"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"options": {
+				"template": "{\n\t\"output\": \"mldemo.html\",\n\t\"content\": \"content.json\"\n}"
+			},
+			"color": "#37BC9B",
+			"notes": ""
+		}
+	],
+	"variables": "",
+	"panel": "debug",
+	"url": "http://0.0.0.0:8000/#designer",
+	"created": "2020-02-21T20:51:31.330Z"
+}
